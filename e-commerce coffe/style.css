@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Configuração do cabeçalho*/
+
 .header{
     background-image: url(Imagens/produtos/getty_coffe.jpg);
     width: 100%;
@@ -77,4 +79,37 @@
     gap: 50px; 
     background-color: #330F0A; 
 }
+
+.main-4{
+    background-image: url(Imagens/produtos/banner-33.jpg);
+    width: 100%;
+    height: 400px;
+    padding-top: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #330F0A;
+
+}
+
+.footer{
+    padding: 70px;
+    max-width: 100%;
+    background-color: #330F0A; 
+    color: #FAFAFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social_medias{
+    padding-top: 75px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 100px;  
+}
+
 
